@@ -2,9 +2,9 @@
 
 #if DDXML_LIBXML_MODULE_ENABLED
 #if TARGET_OS_IOS && TARGET_OS_EMBEDDED
-@import libxml;
+@import libxmlModuleDevice;
 #elif TARGET_IPHONE_SIMULATOR
-@import libxmlSimu;
+@import libxmlModuleSimulator;
 #elif TARGET_OS_MAC
 @import libxmlMac;
 #endif
